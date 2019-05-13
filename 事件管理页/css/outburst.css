@@ -1,0 +1,351 @@
+.eme_box {
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+    transform-origin: 0px 0px 0px;
+    -ms-transform-origin: 0 0 0;
+    position: fixed;
+}
+.eme_header {
+    background: url(../img/tit_bic.png);
+    background-repeat: no-repeat;
+    height: 164px;
+}
+.eme_header .eme_tit {
+    width: 522px;
+    height: 72px;
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    margin-left: 34px;
+    float:  left;
+    margin-top: 50px;
+}
+.emeListOn {
+    background: url(../img/pitch_on.png)!important;
+}
+.eme_header .eme_list {
+    width: 1336px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 0px -27px;
+    float: left;
+    margin-top: 31px;
+}
+.eme_header .eme_list li {
+    width: 188px;
+    height: 97px;
+    background: url(../img/no_pitch_on.png);
+    background-repeat: no-repeat;
+    margin: 25px 0 0 8px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 84px;
+    text-align: center;
+    float:  left;
+    cursor: pointer;
+}
+.eme_header .eme_list li:first-child {
+    margin-left: 40px;
+}
+
+.main_page {
+    width: 100%;
+    margin-top: -1px;
+    background: #01070c;
+}
+.emeListOn {
+    background: url(../img/pitch_on.png)!important;
+    background-repeat: no-repeat!important;
+}
+
+/* 左侧导航菜单 */
+
+.list {
+    width: 206px;
+    border-bottom: solid 1px #316a91;
+    margin: 15px auto 0;
+}
+.list ul li {
+    position: relative;
+}
+.list ul li a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    text-indent: 40px;
+    text-decoration: none;
+    z-index: 10;
+}
+.list ul li ul {
+    display: none;
+}
+
+.list ul li ul li {
+    border-left: 0;
+    border-right: 0;
+}
+
+.list ul li ul li ul {
+    display: none;
+}
+.list ul li ul li a {
+    padding-left: 20px;
+}
+.list ul li ul li ul li {
+}
+.last {
+    border-color: #6196bb;
+}
+.list ul li ul li ul li a {
+    color: #316a91;
+    padding-left: 30px;
+}
+
+.select_menu {
+    background: url(../img/cdh.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 917px;
+    position: relative;
+    width: 320px;
+    float: left;
+}
+.select_menu .me_btn {
+    position: absolute;
+    top: 266px;
+    left: 303px;
+    cursor: pointer;
+}
+.select_menu .open_menus {
+    position: absolute;
+    top: 372px;
+    left: 319px;
+    height: 40px;
+    width: 16px;
+    z-index: 20;
+    cursor: pointer;
+    display: none;
+} 
+.yiji > li {
+    font-size: 16px;
+    border-bottom: 1px dashed #fff;
+}
+.yiji > li > img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 0;
+    top: 33px;
+}
+.yiji > li a:hover {
+    text-decoration: none;
+}
+.yiji > li ul a {
+    color: #ccc;
+    font-size: 12px;
+    position: relative;
+}
+.yiji > li a img {
+    position: absolute;
+    bottom: -25px;
+    left: -63px;
+}
+.yiji > li ul li a {
+    height: 35px;
+    line-height: 35px;
+}
+.yiji > li ul li a:hover {
+    color: #fff;
+}
+/* ------------------------------------------------------ */
+.mana_center {
+    width: 100%;
+    min-height: 917px;
+}
+.overview_data {
+    overflow: hidden;
+    padding: 0 40px;
+    background: url(../img/sm_bg.png);
+    background-repeat: no-repeat;
+    background-size: 101%;
+    background-position: -1px 0px;
+}
+.overview_data .over_title {
+    width: 66%;
+    height: 467px;
+    float: left;
+    background: url(../img/mes_history.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    margin-top: 0;
+    overflow: hidden;
+}
+.over_title .his_tit {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 78px;
+    font-weight: bold;
+}
+.over_title .his_tit span {
+    margin-left: 42px;
+}
+.event_table {
+    padding: 13px 31px 0;
+    color: #fff;
+}
+.event_table thead th {
+    font-size: 18px;
+    background: #1c65c8;
+    border-bottom: none!important;
+    text-align: center;
+}
+.event_table tbody {
+    font-size: 14px;
+    color: #c0c0c0;
+    border-left: 2px solid #0c284d;
+    border-right: 2px solid #0c284d;
+}
+.event_table tbody td {
+    border-top: none!important;
+    border-bottom: 2px solid #0c284d;
+    text-align: center;
+    height: 30px;
+    line-height: 30px!important;
+}
+.has_disposal {
+    color: #db9722;
+}
+.not_ok {
+    color: #02dd2b;
+}
+.triduum_his {
+    width: 32.5%;
+    height: 488px;
+    background: url(../img/work_time.png);
+    float: left;
+    background-size: 100% 100%;
+    background-position: 0px -20px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+.triduum_title {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 90px;
+    text-align: center;
+}
+.zh_body {
+    width: 314px;
+    max-height: 333px;
+    margin: 50px auto 0;
+    color: #fff;
+    font-size: 14px;
+    overflow-y: auto;
+}
+.zh_body li {
+    padding: 6px 0;
+}
+.zh_body .p_text {
+    padding: 0 20px 0 26px;
+    display: inline-block;
+    min-width: 84px;
+}
+.malfunction, .emergency, .emergency_year {
+    float: left;
+    width: 32%;
+    height: 381px;
+    background: url(../img/btm_bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px -58px;
+    background-size: 100% 117%;
+    position: relative;
+    margin-left: 15px;
+}
+.emergency_year {
+    margin-left: 19px;
+    width: 32.6%;
+}
+.btm_sm_title {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.point_list {
+    width: 84%;
+    margin: 15px auto 0;
+    color: #fff;
+    font-size: 14px;
+}
+.point_list dd {
+    border-bottom: 1px dashed #fff;;
+}
+.point_list dd:last-child {
+    border-bottom: 0px;
+}
+.point_list dd > div {
+    width: 246px;
+    height: 43px;
+    line-height: 43px;
+}
+.point_list dd .point_list_left {
+    margin: 0 auto;
+}
+.point_list dd .point_list_right {
+    float: right;
+    margin-top: auto;
+}
+.point_list dd > div > span:last-child {
+    margin-top: 16px;
+}
+.point_list .point_imgs i {
+    float: left;
+    margin-right: 5px;
+}
+.point_list .point_imgs .p_img_1 {
+    width: 13px;
+    height: 13px;
+    background: url(../img/min_tim.png);
+}
+.point_list .point_imgs .p_img_2 {
+    width: 12px;
+    height: 1px;
+    border-top: 1px dashed #fff;
+    margin-top: 6px;
+}
+.point_list .point_imgs .p_img_3 {
+    width: 11px;
+    height: 11px;
+    background: url(../img/quan.png);
+    margin-top: 1px;
+}
+.point_list .point_imgs .p_img_4 {
+    width: 23px;
+    height: 23px;
+    background: url(../img/ok.png);
+    margin-top: -6px;
+}
+.emergency_num {
+    width: 93%;
+    height: 256px;
+    margin-top: 30px;
+}
+.emergency .eme_subhead {
+    width: 14px;
+    min-height: 93px;
+    position: absolute;
+    writing-mode: vertical-lr;
+    left: 23px;
+    top: 180px;
+    color: #fff;
+    font-size: 12px;
+}
+.eme_year_num {
+    margin-top: 5px;
+    height: 284px;
+}
